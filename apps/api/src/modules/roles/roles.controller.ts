@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common';
 import { RolesService } from './roles.service';
 import { RolePrismaQueryDto } from './dto/role-prisma-query.dto';
-import { ApiResponse } from 'src/common/interfaces/response.interface';
+import { ApiResponse } from '../../common/interfaces/response.interface';
 import { RoleResponse } from './dto/role-response.dto';
 import { RoleInputDto } from './dto/role-input.dto';
 

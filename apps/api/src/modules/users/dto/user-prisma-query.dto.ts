@@ -1,4 +1,3 @@
-// src/modules/users/dto/user-prisma-query.dto.ts
 import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 

@@ -5,7 +5,7 @@ import { UserInputDto } from './dto/user-input.dto';
 import { UserResponse, UserResponseSchema } from './dto/user-response.dto';
 import { ResponseBuilder } from 'src/common/utils/response.builder';
 import { UserPrismaQueryDto } from './dto/user-prisma-query.dto';
-import { ApiResponse } from 'src/common/interfaces/response.interface';
+import { ApiResponse } from '../../common/interfaces/response.interface';
 
 @Injectable()
 export class UsersService {

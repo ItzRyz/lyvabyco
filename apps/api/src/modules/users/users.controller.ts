@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { UserInputDto } from './dto/user-input.dto';
-import { ApiResponse } from 'src/common/interfaces/response.interface';
+import { ApiResponse } from '../../common/interfaces/response.interface';
 import { UserResponse } from './dto/user-response.dto';
 import { UserPrismaQueryDto } from './dto/user-prisma-query.dto';
 
