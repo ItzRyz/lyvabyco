@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { Prisma, Role } from 'prisma/generated/client';
-import { PrismaService } from 'src/prisma/prisma.service';
+import { PrismaService } from '../../prisma/prisma.service';
 import { RoleResponse, RoleResponseSchema } from './dto/role-response.dto';
 import { RolePrismaQueryDto } from './dto/role-prisma-query.dto';
 import { ApiResponse } from '../../common/interfaces/response.interface';
